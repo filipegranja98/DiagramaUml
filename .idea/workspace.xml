@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dad6f87-cf27-4ab0-be77-ae251bcc2818" name="Changes" comment="Primeiro Commit do projeto">
-      <change afterPath="$PROJECT_DIR$/src/EbooksAdquiridos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EbooksAutorais.java" afterDir="false" />
+    <list default="true" id="3dad6f87-cf27-4ab0-be77-ae251bcc2818" name="Changes" comment="Criando os relacionamentos entre as classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Biblioteca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarrinhoDeCompras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EbooksAdquiridos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EbooksAdquiridos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EbooksAutorais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EbooksAutorais.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c57f720d-3b6e-4cf7-a53b-495065608f4d" />
+        <option name="url" value="https://github.com/filipegranja98/DiagramaUml.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,11 +72,19 @@
       <option name="project" value="LOCAL" />
       <updated>1698948651985</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Criando os relacionamentos entre as classes">
+      <created>1699133188690</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699133188690</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeiro Commit do projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeiro Commit do projeto" />
+    <MESSAGE value="Criando os relacionamentos entre as classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando os relacionamentos entre as classes" />
   </component>
 </project>

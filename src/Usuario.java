@@ -10,8 +10,9 @@ public class Usuario {
         this.endereco = endereco;
         this.numeroContato = numeroContato;
     }
-    public void avaliarEbook(){
-        System.out.println("Isso aqui é só pra tentar lembrar");
+    public void avaliarEbook(Ebook ebook, double nota){
+        ebook.nota += nota;
+        ebook.totalVotos +=1;
     }
 
     public void comentarEbook(){

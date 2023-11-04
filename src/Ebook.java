@@ -10,9 +10,12 @@ public class Ebook {
     protected ArrayList<String> generoEbooks;
     protected double preco;
     protected Editoras patrocinio;
+    protected double nota;
+    protected int totalVotos;
+
 
     public Ebook(String titulo, UsuarioColaborador autor, Editoras editora, LocalDate dataPublicacao,
-                 ArrayList<String> generos, double preco, Editoras patrocinio) {
+                 ArrayList<String> generos, double preco, Editoras patrocinio, double nota, int totalVotos) {
         this.titulo = titulo;
         this.autor = autor;
         this.editora = editora;
@@ -20,6 +23,8 @@ public class Ebook {
         this.generoEbooks = generos;
         this.preco = preco;
         this.patrocinio = patrocinio;
+        this.nota = nota;
+        this.totalVotos = totalVotos;
     }
 
     public String getTitulo() {
@@ -76,6 +81,22 @@ public class Ebook {
 
     public void setPatrocinio(Editoras patrocinio) {
         this.patrocinio = patrocinio;
+    }
+
+    public double getNota() {
+        return nota;
+    }
+
+    public void setNota(double nota) {
+        this.nota = nota/totalVotos;
+    }
+
+    public int getTotalVotos() {
+        return totalVotos;
+    }
+
+    public void setTotalVotos(int totalVotos) {
+        this.totalVotos = totalVotos;
     }
 
     public void mostrarDados() {
